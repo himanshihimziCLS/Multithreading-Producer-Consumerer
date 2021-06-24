@@ -5,8 +5,8 @@ import static org.junit.jupiter.api.Assertions.*;
 class EventTest {
 
     @Test
-    void aboutToStarve() {
-        EventTest my = new EventTest();
-        assertEquals(0,0);
+    void isStarve() {
+        Event event = new Event();
+        assertEquals(false,event.isStarved());
     }
 }
